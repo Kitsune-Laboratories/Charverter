@@ -1,3 +1,3 @@
-declare module "charverter" {
-    export function charverter(String: string): string;
+declare module "charvert" {
+    export function charvert(String: string): string;
 }
