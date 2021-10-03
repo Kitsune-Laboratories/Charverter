@@ -2,11 +2,13 @@
 
 # Charverter
 
+#### (Still InDev, don't expect all the fonts to be existent yet.)
+
 ## Changes weird characters to English characters
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/b334b49a02542d226929/maintainability)](https://codeclimate.com/github/Kitsune-Softworks/Charverter/maintainability)
 [![npm](https://img.shields.io/npm/v/charverter)](https://www.npmjs.com/package/charverter)
-![Fonts](https://img.shields.io/badge/Fonts%20Added-2-orange)
+![Fonts](https://img.shields.io/badge/Fonts%20Added-7-orange)
 
 ---
 <div align=left>
