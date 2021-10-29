@@ -26,19 +26,20 @@ yarn: `yarn add charverter`
 ```js
 const { charvert } = require('charverter');
 
-console.log(charvert("Wʜᴀᴛ ɪғ ᴛʜᴇʀᴇ ᴡᴀs ᴍᴏʀᴇ?"));
-// > What if there was more?
+console.log(charvert("ℌ𝔢 𝔢𝔵𝔠𝔢𝔩𝔩𝔢𝔡 𝔞𝔱 𝔣𝔦𝔯𝔦𝔫𝔤 𝔭𝔢𝔬𝔭𝔩𝔢 𝔫𝔦𝔠𝔢𝔩𝔶."));
+// > Written warnings in instruction manuals are worthless since rabbits can't read.
 
-const String = "Oʀ ᴡʜᴀᴛ ɪғ ᴛʜᴇʀᴇ ᴡᴀs ɴᴏᴛʜɪɴɢ...";
+const String = "𝕊𝕙𝕖 𝕠𝕟𝕝𝕪 𝕡𝕒𝕚𝕟𝕥𝕤 𝕨𝕚𝕥𝕙 𝕓𝕠𝕝𝕕 𝕔𝕠𝕝𝕠𝕣𝕤; 𝕤𝕙𝕖 𝕕𝕠𝕖𝕤 𝕟𝕠𝕥 𝕝𝕚𝕜𝕖 𝕡𝕒𝕤𝕥𝕖𝕝𝕤.";
 
 const result = charvert(String);
 
 console.log(result);
+// > She only paints with bold colors; she does not like pastels.
 ```
 
 ```js
 const Charverter = require('charverter');
 
-console.log(Charverter.charvert("A ᴛʜɪʀᴅ sᴛʀɪɴɢ!"));
-// > A third string!
+console.log(Charverter.charvert("Ｔｈｅ ｅｆｆｉｃｉｅｎｃｙ ｗｉｔｈ ｗｈｉｃｈ ｈｅ ｐａｉｒｅｄ ｔｈｅ ｓｏｃｋｓ ｉｎ ｔｈｅ ｄｒａｗｅｒ ｗａｓ ｑｕｉｔｅ ａｄｍｉｒａｂｌｅ．！"));
+// > The efficiency with which he paired the socks in the drawer was quite admirable.!
 ```
