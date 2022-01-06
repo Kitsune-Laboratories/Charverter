@@ -13,7 +13,7 @@
 ---
 <div align=left>
 
-Converts characters in a string back to the original letter, remade from [weird-to-normal-chars](https://github.com/DavideViolante/weird-to-normal-chars).
+Converts characters in a string back to the original letter, originally forked from [weird-to-normal-chars](https://github.com/DavideViolante/weird-to-normal-chars).
 
 # Installation
 
