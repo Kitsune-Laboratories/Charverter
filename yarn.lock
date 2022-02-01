@@ -2,3 +2,7 @@
 # yarn lockfile v1
 
 
+lunicode@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/lunicode/-/lunicode-2.0.1.tgz#192f0955cf1956edc3bf5e8fefd9acd2be64b801"
+  integrity sha512-tFXPCYVUH9NENfyAfsyj477g2oN/W0aJumjODy0QbIZ4c68dLoGzCc6Ovr46QpF+rMuHa8Qgku6nrMjK78WeDw==

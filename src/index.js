@@ -1,13 +1,11 @@
-const CharacterMap = require('./Charset.json');
+const Charset = require('./Charset.json');
 
 /**
- * @param {String} String to convert
+ * @param {String} String
  * @returns {String} Converted string
  */
-function charvert(String) {
+exports.charvert = (String) => {
     if (!String) new Error(`Charverter: Input is null`);
 
-    return [...String].map(char => CharacterMap[char] || char).join('');
-}
-
-exports.charvert = charvert;
+    return [...String].map(char => Charset[char] || char).join('');
+};

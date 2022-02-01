@@ -1,12 +1,12 @@
 {
     "name": "charverter",
-    "version": "0.0.5-2",
+    "version": "0.0.7-dev",
     "description": "Converts weird characters to English characters",
     "main": "src/index.js",
     "types": "src/types.d.ts",
     "license": "MIT",
     "scripts": {
-        "dev": "node src/index.js"
+        "format": "node ./tools/formatter/format.js"
     },
     "repository": {
         "type": "git",
@@ -23,5 +23,8 @@
         "email": "senko@senkosworld.com"
     },
     "bugs": "https://github.com/Kitsune-Softworks/Charverter/issues",
-    "homepage": "https://github.com/Kitsune-Softworks/Charverter"
+    "homepage": "https://github.com/Kitsune-Softworks/Charverter",
+    "devDependencies": {
+        "lunicode": "^2.0.1"
+    }
 }

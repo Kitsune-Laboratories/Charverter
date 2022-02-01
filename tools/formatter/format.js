@@ -1,17 +1,12 @@
 const fs = require('fs');
-
-const contents = fs.readFileSync('./formatter/Input.json','utf8');
-
+const contents = fs.readFileSync('./tools/formatter/Input.json','utf8');
 const Data = JSON.parse(contents);
-
 const Alphabet = {};
-
 var Character = 1;
 
 //? A a B b C c D d E e F f G g H h I i J j K k L l M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z 0 1 2 3 4 5 6 7 8 9 ` ~ ! @ # $ % ^ & * ( ) _ + - = { } [ ] : ; " ' , . < > / ?
 
-//! clear | yarn format
-
+// no good
 for (var Letter of Data) {
     try {
         switch (Character) {
@@ -292,7 +287,6 @@ for (var Letter of Data) {
                 Alphabet[Letter] = '?';
             break;
 
-
             default:
                 console.log(`ERROR: Number ${Character}`);
         }
@@ -301,9 +295,7 @@ for (var Letter of Data) {
     }
 }
 
-fs.appendFile('./src/formatter/output.json', "\n" + (JSON.stringify(Alphabet).slice(1, -1)) + ",", function (err) {
-    if (err) throw err;
-});
+fs.writeFileSync('./tools/formatter/output.json', JSON.stringify(Alphabet).slice(1, -1) + ",");
 
 const date = new Date();
-console.log(`\n\n\nAppended\n - ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}\n\n\n`);
+console.log(`\n\n\nWritten\n - ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}\n\n\n`);
