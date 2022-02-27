@@ -1,6 +1,7 @@
-[![npm](https://img.shields.io/npm/v/charverter)](https://www.npmjs.com/package/charverter) ![Fonts](https://img.shields.io/badge/Fonts%20Added-77-orange)
+<!-- [![npm](https://img.shields.io/npm/v/charverter)](https://www.npmjs.com/package/charverter) ![Fonts](https://img.shields.io/badge/Fonts%20Added-73-orange) -16M -->
 
 Converts characters in a string back to the original letter, credit to [weird-to-normal-chars](https://github.com/DavideViolante/weird-to-normal-chars).
+
 
 # Installation
 
