@@ -5,7 +5,7 @@ const Charset = require('./Charset.json');
  * @returns {String} Converted string
  */
 exports.charvert = (String) => {
-    if (!String) new Error(`Charverter: Input is null`);
+    if (!String) new Error(`Charverter input null`);
 
     return [...String].map(char => Charset[char] || char).join('');
 };
