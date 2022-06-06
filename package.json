@@ -1,7 +1,7 @@
 {
     "name": "charverter",
-    "version": "0.0.8-dev",
-    "description": "Converts weird characters to English characters",
+    "version": "1.1.0-dev",
+    "description": "Converting weird characters in a string back to normal",
     "main": "src/index.js",
     "types": "src/types.d.ts",
     "license": "MIT",
@@ -10,20 +10,21 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Kitsune-Softworks/Charverter.git"
+        "url": "git+https://github.com/Kitsune-Laboratories/Charverter.git"
     },
     "keywords": [
         "character",
         "chars",
-        "font"
+        "font",
+        "converter"
     ],
     "author": {
         "name": "Kitsune Softworks",
-        "url": "https://github.com/Kitsune-Softworks",
+        "url": "https://github.com/Kitsune-Laboratories",
         "email": "senko@senkosworld.com"
     },
-    "bugs": "https://github.com/Kitsune-Softworks/Charverter/issues",
-    "homepage": "https://github.com/Kitsune-Softworks/Charverter",
+    "bugs": "https://github.com/Kitsune-Laboratories/Charverter/issues",
+    "homepage": "https://github.com/Kitsune-Laboratories/Charverter",
     "devDependencies": {
         "lunicode": "^2.0.1"
     }

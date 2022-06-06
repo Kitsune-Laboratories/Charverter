@@ -1,2 +1,6 @@
 tools
 .vscode
+.eslintrc
+.gitignore
+README.md
+charverter.png
